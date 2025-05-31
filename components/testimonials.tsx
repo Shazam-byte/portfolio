@@ -15,49 +15,24 @@ export default function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
+      name: "Aleem Ansari",
       position: "Product Manager at TechCorp",
       content:
-        "Working with MemoryLeaked was an absolute pleasure. They delivered our project on time and exceeded our expectations in terms of quality and functionality. Their attention to detail and problem-solving skills are exceptional.",
-      rating: 5,
-      image: "/placeholder.svg?height=100&width=100",
+        "Working with Shahzaman was an absolute pleasure. I hired him to build a complete SaaS web app, and he delivered exactly what I envisioned — clean code, modern UI, and a scalable backend. His communication was clear, he met every deadline, and even went the extra mile by suggesting smart improvements to the product. I highly recommend him to anyone looking for a reliable full stack developer..",
+      rating: 4.5,
+      image: "aleem.png",
     },
     {
       id: 2,
-      name: "Michael Chen",
-      position: "CTO at StartupX",
+      name: "Jeff Abrams",
+      position: "CEO Weekly Accounting",
       content:
-        "MemoryLeaked helped us rebuild our entire platform from the ground up. Their technical expertise and ability to understand our business needs resulted in a product that has significantly improved our user engagement and conversion rates.",
+        "Shahzaman is hands-down one of the best developers I’ve worked with. I brought him on board to help with an e-commerce platform, and he hit the ground running from day one. His ability to work independently, solve problems, and deliver a seamless user experience was top-notch. He’s not just a developer — he’s a partner who genuinely cares about your project’s success..",
       rating: 5,
       image: "/placeholder.svg?height=100&width=100",
     },
-    {
-      id: 3,
-      name: "Emily Rodriguez",
-      position: "Founder of DesignHub",
-      content:
-        "I was impressed by MemoryLeaked's ability to translate our design vision into a fully functional website. They were responsive, professional, and provided valuable suggestions that improved the overall user experience.",
-      rating: 4.5,
-      image: "/placeholder.svg?height=100&width=100",
-    },
-    {
-      id: 4,
-      name: "David Kim",
-      position: "Marketing Director at GrowthCo",
-      content:
-        "MemoryLeaked developed a custom analytics dashboard for our marketing team that has transformed how we track and optimize our campaigns. Their solution was elegant, intuitive, and exactly what we needed.",
-      rating: 5,
-      image: "/placeholder.svg?height=100&width=100",
-    },
-    {
-      id: 5,
-      name: "Lisa Patel",
-      position: "E-commerce Manager at RetailPlus",
-      content:
-        "The e-commerce platform developed by MemoryLeaked has been a game-changer for our business. It's fast, secure, and our customers love the seamless shopping experience. We've seen a 40% increase in online sales since launch.",
-      rating: 4.5,
-      image: "/placeholder.svg?height=100&width=100",
-    },
+    
+    
   ]
 
   const renderStars = (rating) => {
